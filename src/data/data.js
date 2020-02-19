@@ -11,4 +11,8 @@ export const feedsource = [
         title: 'Lore Ipsum 3',
         text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
     },
+    {
+        title: 'Lore Ipsum 4',
+        text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+    },
 ];

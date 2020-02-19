@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as StarIcon }from '../../assets/star.svg';
 
@@ -15,22 +15,10 @@ const Star = ({ selected = false, onClick }) => {
   )
 };
 
-const StarRating = ({ totalStars }) => {
-    const [starsSelected, selectStar] = useState(0);
-    return (
-        <div className="star-rating">
-            {[...Array(totalStars)].map((n, i) => (
-                <Star
-                    key={i}
-                    selected={i < starsSelected}
-                    onClick={() => selectStar(i + 1)}
-                />
-            ))}
-            <p>
-                {starsSelected} of {totalStars} stars
-            </p>
-        </div>
-    );
+const StarRating = () => {
+  // Write your code for the star rating component here. You can use the Star functional component but
+  // you do not have to.
+
 };
 
 export default StarRating;

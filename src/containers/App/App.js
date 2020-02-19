@@ -7,7 +7,7 @@ import {feedsource} from '../../data/data';
 function App() {
   return (
     <div className="App">
-      <Grid content={feedsource}/>
+      // Add your grid component here
     </div>
   );
 }
